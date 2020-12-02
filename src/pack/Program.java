@@ -17,7 +17,7 @@ public class Program {
                 "\nrandomFloat = " + randomFloat + "\nrandomDouble = " + randomDouble + "\nrandomString = " +
                 randomString + "\n\n");
 
-
+//
         //3. Написать метод вычисляющий выражение a * (b + (c / d)) и возвращающий результат,где a, b, c, d – входные параметры этого метода;
         int answer = abcdMethod(randomByte, randomInt, randomLong, randomShort);
         System.out.println("a * (b + (c / d) = " + answer + "\n\n");
